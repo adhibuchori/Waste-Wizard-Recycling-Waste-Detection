@@ -1,2 +1,3 @@
-# Waste-Wizard-Recycling-Waste-Detection
-Detecting Recyclable Waste On Android Mobile Apps
+# Machine Learning Model
+
+More information will be provided soon.
