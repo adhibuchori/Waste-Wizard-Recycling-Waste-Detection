@@ -28,4 +28,4 @@ By collecting 1000++ recyclable waste image data, developing a machine learning 
 Explore further insights and detailed information regarding this project by clicking on the following link: [Waste Wizard Portfolio Document](https://drive.google.com/file/d/1DeghgC52V1s9y0c2bytvIs8lorMnQdp1/view?usp=drive_link)
 
 ## Download Link
-So, what are you waiting for? [Download now!](bit.ly/WasteWizard-001)
+So, what are you waiting for? [Download now!](https://bit.ly/WasteWizard-001)
