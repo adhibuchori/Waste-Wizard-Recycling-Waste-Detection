@@ -25,4 +25,7 @@ By collecting 1000++ recyclable waste image data, developing a machine learning 
    How to integrate a Convolutional Neural Network (CNN) machine learning model to detect recyclable waste in an Android-based application?
 
 ## Project Document
-Explore further insights and detailed information regarding this project by clicking on the following link: TBA
+Explore further insights and detailed information regarding this project by clicking on the following link: [Waste Wizard Portfolio Document](https://drive.google.com/file/d/1DeghgC52V1s9y0c2bytvIs8lorMnQdp1/view?usp=drive_link)
+
+## Download Link
+So, what are you waiting for? [Download now!](bit.ly/WasteWizard-001)
