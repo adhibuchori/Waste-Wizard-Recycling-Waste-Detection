@@ -111,30 +111,42 @@ Evaluation of a machine learning model is crucial to assess its performance and 
 
 ### 9.1. Visualizing Model Performance
 
-To gain insights into the model's performance during training, I visualized its accuracy and loss over epochs. This plot helps in understanding how well the model learns from the training data and generalizes to unseen data. Here are the results of visualizing the model evaluation, and plotting its performance:
+To gain insights into the model's performance during training, I visualized its accuracy and loss over epochs. This plot helps in understanding how well the model learns from the training data and generalizes it to unseen data. v results of visualizing the model evaluation, and plotting its performance:
 
 <div align="center">
-  <img src="https://drive.google.com/uc?id=1MjE3iyV6o9gAvwpyAZJTGpU0LVABbuiq " alt="Recycled Waste Model Prediction Introduction">
+  <img src="https://drive.google.com/uc?id=1MjE3iyV6o9gAvwpyAZJTGpU0LVABbuiq " alt="The Results of Model Evaluation Plotting">
   <p>Figure 3. The Results of Model Evaluation Plotting.</p>
 </div>
 
-Based on the above figure, it can be observed that the performance evaluation of the model shows positive indications with a trend of increasing accuracy values and decreasing loss values during the training and validation periods.
+Based on Figure 3., it can be observed that the performance evaluation of the model shows positive indications with a trend of increasing accuracy values and decreasing loss values during the training and validation periods.
 
 ### 9.2. Confusion Matrix
 
-Next, I generated a confusion matrix to evaluate the model's performance in classifying different waste types. This matrix provides insights into the model's ability to correctly classify instances and identify areas of confusion.
+Next, I generated a confusion matrix to evaluate the model's performance in classifying different waste types. This matrix provides insights into the model's ability to correctly classify instances and identify areas of confusion. Here is the result of the Confusion Matrix plot:
+
+<div align="center">
+  <img src="https://drive.google.com/uc?id=1xQFLWQpXioiwQRBESBb1l8um9jDBmpv3 " alt="Confusion Matrix Plotting Result">
+  <p>Figure 4. Confusion Matrix Plotting Result.</p>
+</div>
 
 ### 9.3. Classification Report
 
-Lastly, I presented a comprehensive classification report that includes precision, recall, F1-score, and support for each waste type class. This report offers a detailed analysis of the model's performance across different classes, aiding in the assessment of its overall effectiveness. This report provides valuable insights into the model's strengths and weaknesses, guiding further improvements and optimizations.
+Lastly, I presented a comprehensive classification report that includes precision, recall, F1-score, and support for each waste type class. This report offers a detailed analysis of the model's performance across different classes, aiding in the assessment of its overall effectiveness. This report provides valuable insights into the model's strengths and weaknesses, guiding further improvements and optimizations. Here is the result of the Classification plot:
+
+<div align="center">
+  <img src="https://drive.google.com/uc?id=181NdJkDQsZU53tyF6XPFmXlTWn4hrG-J " alt="The Results of Model Evaluation Plotting">
+  <p>Figure 5. Classification Report Plotting Result.</p>
+</div>
+
+Based on Figure 5., it can be observed that the accuracy of the previously trained model is 88% with a value of 0.88. Additionally, the evaluation results of the model's performance on each classification class for each matrix are also obtained.
 
 ## 10. Prediction
 
-In this phase, I have crafted a seamless workflow for precise and swift predictions on image data. Initially, I have developed a versatile function responsible for reading, preprocessing, and loading images from files. This function ensures that our input data is consistently prepared and compatible with the trained neural network model. Following this, I have implemented a prediction function designed to harness the power of the trained neural network. This function efficiently processes input images through the neural network, swiftly generating predictions regarding the presence or absence of garbage within the images. Through meticulous design and implementation of these prediction functions, I have optimized this mobile application for real-time garbage classification, ensuring smooth and accurate performance in any scenario.
+In this phase, I have crafted a seamless workflow for precise and swift predictions of image data. Initially, I have developed a versatile function responsible for reading, preprocessing, and loading images from files. This function ensures that our input data is consistently prepared and compatible with the trained neural network model. Following this, I have implemented a prediction function designed to harness the power of the trained neural network. This function efficiently processes input images through the neural network, swiftly generating predictions regarding the presence or absence of garbage within the images. Through meticulous design and implementation of these prediction functions, I have optimized this mobile application for real-time garbage classification, ensuring smooth and accurate performance in any scenario.
 
 ## 11. Deployment
 
-In the deployment phase of the machine learning model for garbage detection, several key steps were undertaken to ensure seamless integration into the mobile application. Firstly, the model was saved in the widely supported SavedModel format, ensuring compatibility across various platforms. Subsequently, to optimize for mobile deployment, the SavedModel was converted into a TensorFlow Lite (TFLite) format, denoted as `garbage_detection.tflite`. This conversion not only facilitated efficient deployment on mobile devices but also paved the way for further optimizations. One such optimization involved quantization, a technique aimed at reducing the model's size while preserving its predictive accuracy. By quantizing the TensorFlow model, we achieved a balance between model size and computational efficiency, crucial for mobile applications. Finally, the quantized TensorFlow model was saved in the TFLite format, ready for seamless integration into the mobile application, ensuring efficient garbage detection on-the-go.
+In the deployment phase of the machine learning model for garbage detection, several key steps were undertaken to ensure seamless integration into the mobile application. Firstly, the model was saved in the widely supported SavedModel format, ensuring compatibility across various platforms. Subsequently, to optimize for mobile deployment, the SavedModel was converted into a TensorFlow Lite (TFLite) format, denoted as `garbage_detection.tflite`. This conversion not only facilitated efficient deployment on mobile devices but also paved the way for further optimizations. One such optimization involved quantization, a technique aimed at reducing the model's size while preserving its predictive accuracy. By quantizing the TensorFlow model, we achieved a balance between model size and computational efficiency, crucial for mobile applications. Finally, the quantized TensorFlow model was saved in the TFLite format, ready for seamless integration into the mobile application, ensuring efficient garbage detection on the go.
 
 ## 12. Conclusion
 
