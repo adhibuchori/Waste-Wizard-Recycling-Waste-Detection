@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Waste Wizard</string>
+
+    <string name="detection">Deteksi</string>
+    <string name="recycling_waste">Sampah Daur Ulang</string>
+    <string name="important">Penting!</string>
+    <string name="important_information_description">Silakan masukkan gambar melalui galeri atau kamera. Lalu, klik tombol <b>Pindai</b> untuk mendeteksi jenis sampah daur ulang.</string>
+    <string name="scan">Pindai</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="input_image">masukkan gambar</string>
+    <string name="important_information">Informasi Penting</string>
+    <string name="recycling_waste_detection">Recycling Waste Detection</string>
+    <string name="copyright">© 2024 Skripsi Mochammad Adhi Buchori</string>
+    <string name="detection_results">Hasil Deteksi</string>
+    <string name="garbage_type">Jenis Sampah</string>
+    <string name="okay">Okay</string>
+    <string name="see_more">Lihat Lebih Lanjut</string>
+    <string name="waste_information">Informasi Sampah</string>
+    <string name="recycling_waste_detection_results">Hasil Deteksi Sampah Daur Ulang</string>
+    <string name="reference">Referensi</string>
+    <string name="detail_reference">Piper, J. (2022). The Rubbish Book: A Complete Guide to Recycling.</string>
+    <string name="how_to_sort_waste">Cara Memilah Limbah</string>
+    <string name="how_to_sort_waste_information">Informasi Cara Memilah Limbah</string>
+    <string name="how_to_recycle_waste">Cara Mendaur Ulang Limbah</string>
+    <string name="how_to_recycle_waste_information">Informasi Cara Mendaur Ulang Limbah</string>
+
+    <!-- Waste Information String Assets -->
+    <string-array name="data_sort_waste_information">
+        <item>
+            1. Kumpulkan limbah kertas.\n2. Pisahkan limbah kertas yang terkontaminasi noda atau lem.
+        </item>
+        <item>
+            1. Kumpulkan limbah kardus.\n2. Pisahkan limbah kardus yang terkontaminasi noda atau lem.
+        </item>
+        <item>
+            1. Limbah plastik dapat diklasifikasikan menjadi 2, yaitu plastik rigid (kaku) dan plastik fleksibel.\n2. Plastik rigid seperti botol atau pot yogurt, sedangkan plastik fleksibel seperti kantong plastik atau bungkus makanan ringan.
+        </item>
+        <item>
+            1. Tutup dan label dihilangkan dengan magnet dan udara panas.\n2. Pisahkan kaca berdasarkan warna bening, coklat, dan hijau.
+        </item>
+        <item>
+            1. Memisahkan logam ke dalam dua jenis logam, yaitu aluminium dan baja menggunakan magnet.\n2. Aluminium tidak tertarik magnet, sedangkan baja akan tertarik.
+        </item>
+    </string-array>
+
+    <!-- Recycling Information String Assets -->
+    <string-array name="data_recycle_waste_information">
+        <item>
+            1. Hancurkan kertas hingga menjadi potongan-potongan kecil.\n2. Kertas yang sudah dipotong kecil-kecil dicampur dengan air dan bahan kimia (hidrogen peroksida, natrium hidroksida, dan natrium silikat) dalam tangki besar guna memisahkan serat-serat kertas. Campuran tersebut diaduk hingga menjadi bubur kental.\n3. Menyaring bubur kertas untuk memisahkan kotoran dan kontaminan, seperti staples, klip kertas, selotip, dan plastik.\n4. Menghilangkan tinta pada bubur kertas menggunakan bahan kimia. Pemutih untuk membuat kertas putih dan pengental untuk membuat kardus.\n5. Menghilangkan air pada bubur kertas. Kemudian, bubur kertas yang sebagian besar kering dipanaskan dan digulung menjadi gulungan besar yang siap dijual.
+        </item>
+        <item>
+            1. Hancurkan kardus hingga menjadi potongan-potongan kecil.\n2. Kardus yang sudah dipotong kecil-kecil dicampur dengan air dan bahan kimia (hidrogen peroksida, natrium hidroksida, dan natrium silikat) dalam tangki besar guna memisahkan serat-serat kardus. Campuran tersebut diaduk hingga menjadi bubur kental.\n3. Menyaring bubur kertas untuk memisahkan kotoran dan kontaminan, seperti staples, klip kertas, selotip, dan plastik.\n4. Menghilangkan tinta pada bubur kertas menggunakan bahan kimia. Pemutih untuk membuat kertas putih dan pengental untuk membuat kardus.\n5. Menghilangkan air pada bubur kertas. Kemudian, bubur kertas yang sebagian besar kering dipanaskan dan digulung menjadi gulungan besar yang siap dijual.
+        </item>
+        <item>
+            Secara Mekanik\n\n1. Plastik dipotong kecil-kecil menggunakan mesin pencacah atau granulator yang menghasilkan potongan plastik yang lebih kecil dan seragam (disebut  ‘regrind’).\n2. Regrind dicuci untuk menghilangkan kontaminan, seperti kotoran, lem, dan kertas.\n3. Regrind yang telah disortir dan dibersihkan diubah menjadi \'pellet\'.\n4. Pellet dapat digunakan untuk membuat produk baru. Selain itu, pellet juga dapat diangkut dan dijual ke produsen.\n\nSecara Kimiawi\n\n1. Pemurnian\na. Mencampur plastik dengan pelarut untuk menghilangkan aditif.\nb. Memisahkan plastik dari bahan non-target.\nc. Menghasilkan polimer murni.\n\n2. Depolimerisasi\na. Mengubah polimer kompleks menjadi monomer.\nb. Hanya dapat digunakan pada plastik tertentu (misalnya PET).\nc. Penggunaannya terbatas.\n\n3. Daur Ulang Bahan Baku\na. Menggunakan panas untuk memecah rantai polimer atau disebut sebagai proses pirolisis.\nb. Menghasilkan uap hidrokarbon yang dapat diubah menjadi minyak.\nc. Bekerja dengan baik dengan poliolefin (misalnya PP, PE).
+        </item>
+        <item>
+            1. Kaca dipilah dan dihancurkan menjadi serpihan kecil (disebut cullet).\n2. Cullet disortir berdasarkan warna.\n3. Cullet dicampur dengan bahan kaca baru dan dilelehkan dalam tungku pada suhu lebih dari 1.500°C.\n4. Kaca cair dipisahkan menjadi gumpalan dan ditiup menjadi botol dan stoples baru. 70% cullet digunakan untuk membuat botol dan stoples baru, sedangkan 30% cullet yang berkualitas lebih rendah dihancurkan menjadi pasir halus untuk membuat jalan atau beton.
+        </item>
+        <item>
+            1. Logam dipisahkan menjadi baja dan aluminium menggunakan magnet dan arus eddy.\n2. Logam dicincang menjadi potongan-potongan kecil.\n3. Logam dileburkan dalam tungku besar.\n4. Magnet dan elektrolisis digunakan untuk menghilangkan kontaminan.\n5. Logam cair didinginkan dan dipadatkan menjadi bentuk dan ukuran yang diinginkan.
+        </item>
+    </string-array>
+
+
+</resources>
