@@ -43,7 +43,7 @@ Testing is a crucial phase to verify and validate the application's functionalit
 ## 6. Installation
 
 ### 6.1. Downloading from Google Drive Link
-1. Download the application through the following Google Drive link.
+1. Download the application through the following Google Drive [link here](https://bit.ly/WasteWizard-001).
 2. In the upper-right corner, tap on the three vertical dots icon (more options).
 3. Select "Download" from the menu.
 4. Wait for the file to be downloaded to your device.
@@ -89,7 +89,7 @@ The application requires permission to access the device's camera and storage to
 ## 8. Usage
 
 ### 8.1. Downloading and Installation
-1. Users can download the Waste Wizard application from the Google Drive link here.
+1. Users can download the Waste Wizard application from Google Drive [link here](https://bit.ly/WasteWizard-001).
 2. After downloading, users can install the application on their mobile devices by following the on-screen instructions.
 
 ### 8.2. Accessing Core Features
