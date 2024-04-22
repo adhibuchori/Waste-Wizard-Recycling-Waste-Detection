@@ -37,7 +37,7 @@ Testing is a crucial phase to verify and validate the application's functionalit
 ## 5. App Preview
 <div align="center">
   <img src="https://drive.google.com/uc?id=1eyAIqxPYxdracfTyjnI-Ls6U_x0L3icm" alt="Waste Wizard App Preview">
-  <p>Figure 2. Waste Wizard App Preview</p>
+  <p>Figure 2. Waste Wizard App Preview.</p>
 </div>
 
 ## 6. Installation
