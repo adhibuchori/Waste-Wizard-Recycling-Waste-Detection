@@ -61,6 +61,12 @@ The Import Library stage involves several crucial steps to prepare the Python en
 
 During the Data Loading stage, the main steps involve accessing and loading the dataset for further analysis. The process begins by mounting Google Drive in the Colab environment, which allows access to files and directories stored on Google Drive. Next, the base directory path `base_dir` is defined to indicate the dataset's location on Google Drive. A list of labels is created to represent different types of garbage in the dataset. Then, the number of classes or types of garbage is calculated and stored in the variable `num_classes`. Subsequently, each label is iterated through to build the directory path for each garbage class and check the number of images (garbage samples) associated with each class. Data loading also involves reading and processing images, which are then displayed in a plot using matplotlib to provide visualization of the dataset's content and distribution. This stage is crucial for understanding the dataset's structure, the number of samples per class, and the types of garbage present, which are then used for training and testing the garbage classification model.
 
+The dataset used in this research consists of images of packaging waste, including paper, cardboard, plastic, glass, and metal. The author manually collected the dataset using a smartphone camera, comprising 1075 image data, divided into 5 classes, with 5 images per object. Each class consists of 300 data for paper waste, 300 data for cardboard waste, 300 data for plastic waste, 50 data for glass waste, and 125 data for metal waste.
+
+Dataset Access Link: [Click Here](https://bit.ly/ReWaDa-Directory-Skripsi-2024)
+
+Dataset Information Link: [Click Here](bit.ly/ReWaDa-Skripsi-2024)
+
 ## 6. Image Preprocessing
 
 Image preprocessing is crucial for preparing our data before feeding it into the machine learning model for training. Here are the steps I took for image preprocessing in this project:
